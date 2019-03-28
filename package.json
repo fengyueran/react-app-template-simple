@@ -14,9 +14,8 @@
     "analyze": "source-map-explorer 'build/static/js/*.js'"
   },
   "devDependencies": {
-    "react-scripts": "2.1.8",
     "@babel/plugin-proposal-decorators": "^7.4.0",
-    "@xinghunm/eslint-config": "^0.0.6",
+    "@xinghunm/eslint-config": "0.0.8",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.12",
     "eslint-config-airbnb": "^17.1.0",
@@ -26,6 +25,7 @@
     "eslint-plugin-react-hooks": "^1.6.0",
     "prettier": "^1.16.4",
     "react-app-rewired": "^2.1.1",
+    "react-scripts": "2.1.8",
     "source-map-explorer": "^1.8.0"
   }
 }
