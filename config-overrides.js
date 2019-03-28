@@ -19,7 +19,7 @@ module.exports = {
     useBabelRc(),
     addDecoratorsLegacy(),
     addWebpackAlias({ src: path.join(__dirname, 'src') }),
-    overrideOutput()
+    // overrideOutput()
   ),
   jest(config) {
     config.testMatch = ['**/__tests__/*.js?(x)'];
