@@ -9,7 +9,8 @@ const {
 
 const overrideOutput = () => config => {
   config.output.filename = 'static/js/bundle.js';
-  delete config.output.chunkFilename;
+  delete config.optimization.splitChunks;
+  config.optimization.runtimeChunk = false;
   return config;
 };
 
